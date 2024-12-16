@@ -1,5 +1,4 @@
-
-•⁠  ⁠{
+•⁠ ⁠ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -43,7 +42,11 @@ h2 {
 table {
     width: 100%;
     border-collapse: collapse;
-    
+
+}
+
+table td:first-child {
+    width: 60%;
 }
 
 table td {
@@ -52,7 +55,8 @@ table td {
     background-color: #f0f8ff;
 }
 
-table td input, table td select {
+table td input,
+table td select {
     width: 100%;
     padding: 0px;
     font-size: 14px;
@@ -62,6 +66,6 @@ table td input, table td select {
 }
 
 
-{
+/* {
     color: #333;
-}
+} */
