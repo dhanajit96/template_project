@@ -1,0 +1,67 @@
+
+•⁠  ⁠{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #2c2c6c;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+h2 {
+    background-color: #2c2c6c;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin: 0px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f8ff;
+}
+
+table td input, table td select {
+    width: 100%;
+    padding: 0px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+
+{
+    color: #333;
+}
