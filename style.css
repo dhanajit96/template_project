@@ -1,18 +1,15 @@
 .photo-box {
-    width: 150px; /* Width of passport photo */
-    height: 200px; /* Height of passport photo */
-    border: 2px solid black; /* Solid border */
-    display: flex; /* Flexbox to center content */
-    justify-content: center; /* Horizontally center text */
-    align-items: center; /* Vertically center text */
-    font-size: 14px; /* Placeholder text size */
-    color: gray; /* Placeholder text color */
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    font-size: 14px;
+    color: gray;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 20px;
-    background-color: #f9f9f9; /* Light gray background */
-    margin-left: 1100px
+    background-color: #f9f9f9;
 }
+
 •⁠ ⁠ {
     margin: 0;
     padding: 0;
@@ -40,9 +37,8 @@ h1 {
     text-align: center;
     text-decoration: underline;
     color: #2c2c6c;
-    margin-top:40px;
-    margin-bottom: -0px;
     font-size: 26px;
+    display: flex;
 }
 
 h2 {
@@ -52,7 +48,6 @@ h2 {
     font-size: 18px;
     margin-top: 20px;
     margin: 0px;
-
 }
 
 table {
@@ -80,8 +75,3 @@ table td select {
     border-radius: 4px;
     background-color: #fff;
 }
-
-
-/* {
-    color: #333;
-} */
