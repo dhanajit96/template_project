@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fc; /* Light blue-gray background */
+    color: #333333;
+}
+
+/* Email Container */
+.email-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff; /* White card */
+    border: 1px solid #dce4f1; /* Light blue border */
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Header Section */
+.header {
+    background-color: #1e5399; /* Primary blue from logo */
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Content Section */
+.content {
+    padding: 25px 30px;
+}
+
+.content h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #007bff; /* Primary blue for headings */
+}
+
+.content p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.otp {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff0000; /* Red for OTP */
+    background-color: #f3dada; /* Light red background */
+    padding: 5px 10px; /* Padding for emphasis */
+    border-radius: 5px; /* Rounded corners for better design */
+    display: inline-block; /* To isolate the highlight effect */
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Footer Section */
+.footer {
+    padding: 15px 30px;
+    font-size: 0.9em;
+    color: #666666;
+    background-color: #f4f8fc; /* Light blue-gray background */
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}

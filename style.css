@@ -57,7 +57,7 @@ table {
 }
 
 table td:first-child {
-    width: 60%;
+    width: 30%;
 }
 
 table td {
@@ -74,4 +74,20 @@ table td select {
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #fff;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: block; /* Makes the button a block element */
+    margin: 0 auto; /* Centers the block element horizontally */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: rgb(64, 0, 255);
 }
