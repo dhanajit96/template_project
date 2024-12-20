@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f8fc; /* Light blue-gray background */
+    background-color: #f4f8fc;
+    /* Light blue-gray background */
     color: #333333;
 }
 
@@ -11,8 +12,10 @@ body {
 .email-container {
     max-width: 600px;
     margin: 20px auto;
-    background-color: #ffffff; /* White card */
-    border: 1px solid #dce4f1; /* Light blue border */
+    background-color: #ffffff;
+    /* White card */
+    border: 1px solid #dce4f1;
+    /* Light blue border */
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -20,7 +23,8 @@ body {
 
 /* Header Section */
 .header {
-    background-color: #1e5399; /* Primary blue from logo */
+    background-color: #1e5399;
+    /* Primary blue from logo */
     color: #ffffff;
     padding: 20px;
     text-align: left;
@@ -48,7 +52,8 @@ body {
 .content h2 {
     margin-top: 0;
     font-size: 1.5em;
-    color: #007bff; /* Primary blue for headings */
+    color: #007bff;
+    /* Primary blue for headings */
 }
 
 .content p {
@@ -56,15 +61,24 @@ body {
     margin: 10px 0;
 }
 
+.otp_container {
+    text-align: center;
+
+}
+
 .otp {
     font-size: 1.5em;
     font-weight: bold;
-    color: #ff0000; /* Red for OTP */
-    background-color: #f3dada; /* Light red background */
-    padding: 5px 10px; /* Padding for emphasis */
-    border-radius: 5px; /* Rounded corners for better design */
-    display: inline-block; /* To isolate the highlight effect */
-    text-align: center;
+    color: #ff0000;
+    /* Red for OTP */
+    background-color: #f3dada;
+    /* Light red background */
+    padding: 5px 10px;
+    /* Padding for emphasis */
+    border-radius: 5px;
+    /* Rounded corners for better design */
+    display: inline-block;
+    /* To isolate the highlight effect */
     margin: 20px 0;
 }
 
@@ -73,7 +87,8 @@ body {
     padding: 15px 30px;
     font-size: 0.9em;
     color: #666666;
-    background-color: #f4f8fc; /* Light blue-gray background */
+    background-color: #f4f8fc;
+    /* Light blue-gray background */
     text-align: center;
 }
 
