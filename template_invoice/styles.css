@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fc;
+    /* Light blue-gray background */
+    color: #333333;
+}
+
+/* Email Container */
+.email-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    /* White card */
+    border: 1px solid #dce4f1;
+    /* Light blue border */
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Header Section */
+.header {
+    background-color: #1e5399;
+    /* Primary blue from logo */
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Content Section */
+.content {
+    padding: 25px 30px;
+    font-size: 1em;
+}
+
+.content p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.content strong {
+    color: #007bff;
+    /* Primary blue for highlighting names and roles */
+}
+
+/* Sender Details */
+.sender-details {
+    font-size: 0.9em;
+    color: #555555;
+    line-height: 1.2; /* Compact spacing */
+    margin-top: 15px;
+}
+
+.sender-details p {
+    margin: 0; /* No spacing between rows */
+}
+
+/* Footer Section */
+.footer {
+    padding: 15px 30px;
+    font-size: 0.9em;
+    color: #666666;
+    background-color: #f4f8fc;
+    /* Light blue-gray background */
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
